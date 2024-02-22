@@ -1,12 +1,10 @@
-/* SignInForm.css */
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Poppins&display=swap');
 
 .signin-form {
-    width: 100vw; 
+    width: 100vw;
     height: 100vh;
     position: relative;
-    background-image: url('../../assets/background.png'); /* Adjust the path accordingly */
+    background-image: url('../../assets/background.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,7 +13,7 @@
     align-items: center;
     justify-content: center;
     color: white;
-    font-family: 'Raleway', 'Poppins';
+    font-family: 'Raleway', sans-serif;
     text-align: center;
 }
 
@@ -33,8 +31,8 @@
     font-size: 26px;
     font-family: Raleway;
     position: absolute;
-    top: 150px; 
-    right: 300px; 
+    top: 150px;
+    right: 300px;
 }
 
 .title {
@@ -54,19 +52,18 @@
     font-size: 24px;
     font-family: Poppins;
     position: absolute;
-    top: 309px; 
-    left: 2px; 
+    top: 309px;
+    left: 2px;
 }
 
 .pharagraph {
     width: 308px;
-    height: px;
+    height: auto;
     font-family: Raleway;
     position: absolute;
-    top: 562px; /* Adjust based on the height of the subtitle */
-    left: 122px; /* Keep the left position the same as the subtitle */
+    top: 562px;
+    left: 122px;
 }
-
 
 .input-group {
     margin-bottom: 20px;
@@ -78,25 +75,26 @@
 .input-group input[type="text"],
 .input-group input[type="password"],
 .input-group button[type="submit"] {
-    width: 150%; /* Set the width to 100% */
-    max-width: 300px; /* Optionally, set a maximum width */
+    width: 150%;
+    max-width: 300px;
 }
 
 .input-group button[type="submit"] {
-    background-color: #1844BC; /* Set the background color */
-    color: white; /* Set the text color */
-    border: none; /* Remove the border */
-    padding: 10px; /* Add padding for better appearance */
-    cursor: pointer; /* Add cursor pointer on hover */
+    background-color: #1844BC;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
 }
 
 .social-icons {
     display: flex;
-    justify-content: flex-end; /* Align items to the right */
+    justify-content: flex-end;
     position: absolute;
-    top: 470px; 
-    right: 150px; 
+    top: 470px;
+    right: 150px;
 }
+
 .social-icons img {
     width: 40px;
     height: 40px;
@@ -106,16 +104,12 @@
 button {
     padding: 10px 20px;
     font-size: 18px;
-    /* Adjust font size as needed */
     background-color: #007bff;
-    /* Adjust button background color as needed */
     color: white;
-    /* Adjust button text color as needed */
     border: none;
     cursor: pointer;
 }
 
 button:hover {
     background-color: #0056b3;
-    /* Adjust button hover background color as needed */
 }
