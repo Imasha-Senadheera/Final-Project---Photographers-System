@@ -1,7 +1,7 @@
 // App.js
 import React from 'react';
 import './App.css';
-import SignInForm from './SignInForm';
+import SignInForm from './components/SignInForm/SignInForm'; // Adjust the path accordingly
 
 function App() {
   return (
