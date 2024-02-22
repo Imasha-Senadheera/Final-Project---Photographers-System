@@ -5,10 +5,11 @@ import './SignInForm.css';
 import logoImage from '../../assets/logo.png';
 import facebookImage from '../../assets/facebook.png';
 import googleImage from '../../assets/google.png';
+import backgroundImage from '../../assets/background.png';
 
 function SignInForm() {
   return (
-    <div className="signin-form">
+    <div className="signin-form"style={{ backgroundImage: `url(${backgroundImage})` }}>
       <img alt="logo" className="logo" src={logoImage} />
       <div className="mainTitle">Sign in</div>
       <div className="title">Sign in to</div>
