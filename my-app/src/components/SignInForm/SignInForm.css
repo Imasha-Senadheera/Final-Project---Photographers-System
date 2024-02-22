@@ -75,12 +75,27 @@
     right: 175px;
 }
 
+.input-group input[type="text"],
+.input-group input[type="password"],
+.input-group button[type="submit"] {
+    width: 150%; /* Set the width to 100% */
+    max-width: 300px; /* Optionally, set a maximum width */
+}
+
+.input-group button[type="submit"] {
+    background-color: #1844BC; /* Set the background color */
+    color: white; /* Set the text color */
+    border: none; /* Remove the border */
+    padding: 10px; /* Add padding for better appearance */
+    cursor: pointer; /* Add cursor pointer on hover */
+}
+
 .social-icons {
     display: flex;
     justify-content: flex-end; /* Align items to the right */
     position: absolute;
-    top: 450px; 
-    right: 200px; 
+    top: 470px; 
+    right: 150px; 
 }
 .social-icons img {
     width: 40px;

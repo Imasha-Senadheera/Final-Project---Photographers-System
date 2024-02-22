@@ -2,7 +2,9 @@
 
 import React from 'react';
 import './SignInForm.css';
-import logoImage from '../../assets/logo.png'; // Adjust the path accordingly
+import logoImage from '../../assets/logo.png';
+import facebookImage from '../../assets/facebook.png';
+import googleImage from '../../assets/google.png';
 
 function SignInForm() {
   return (
@@ -28,8 +30,8 @@ function SignInForm() {
       </form>
 
       <div className="social-icons">
-        <img src={require('../../assets/facebook.png').default} alt="Facebook" />
-        <img src={require('../../assets/google.png').default} alt="Google" />
+        <img src={facebookImage} alt="Facebook" />
+        <img src={googleImage} alt="Google" />
       </div>
     </div>
 
