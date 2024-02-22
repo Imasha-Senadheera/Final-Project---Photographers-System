@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import SignUpForm from './components/SignUpForm/SignUpForm'; // Adjust the path accordingly
+import SignInForm from './components/SignInForm/SignInForm';
 
 function App() {
   return (
     <div className="App">
-      <SignUpForm />
+      <SignInForm /> {/* Add this line to render the SignInForm */}
     </div>
   );
 }
