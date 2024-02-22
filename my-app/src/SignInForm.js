@@ -17,7 +17,9 @@ function SignInForm() {
         <div className="input-group">
           <label htmlFor="email"></label>
           <input type="text" id="email" name="email" placeholder="Email or Username" />
-          <label htmlFor="password"></label> 
+          <br></br>
+          <br></br>
+          <label htmlFor="password"></label>
           <input type="password" id="password" name="password" placeholder="Password" />
           <div className="forgot-password">Forgot password?</div>
           <button type="submit">Login</button>
@@ -25,12 +27,12 @@ function SignInForm() {
         </div>
       </form>
 
-      
-      
       <div className="social-icons">
-        {/* You can add social icons here */}
+        <img src="/img/facebook.png" alt="Facebook" />
+        <img src="/img/google.png" alt="Google" />
       </div>
     </div>
+
   );
 }
 

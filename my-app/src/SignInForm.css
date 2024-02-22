@@ -70,15 +70,23 @@
 .input-group {
     margin-bottom: 20px;
     position: absolute;
-    top: 200px; 
-    right: 150px; 
+    top: 200px;
+    right: 175px;
 }
 
-input {
-    width: 300px;
-    padding: 10px;
-    font-size: 16px;
+.social-icons {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    position: absolute;
+    top: 450px; 
+    right: 200px; 
 }
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
 
 button {
     padding: 10px 20px;
