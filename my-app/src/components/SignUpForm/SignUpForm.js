@@ -15,39 +15,23 @@ function SignUpForm() {
             <div className="pharagraph">If you already have an account<br />You can <b>Login here !</b></div>
 
             <div className="input-group">
-                <div className="input-wrapper">
-                    <input type="text" id="email" name="email" placeholder="Enter Email" />
-                </div>
+                <label htmlFor="email"></label>
+                <input type="text" id="email" name="email" placeholder="Enter Email" />
+                <br></br>
+                <br></br>
+                <label htmlFor="user-name"></label>
+                <input type="user-name" id="user-name" name="user-name" placeholder="Enter User Name" />
+                <br></br>
+                <br></br>
+                <label htmlFor="password"></label>
+                <input type="password" id="password" name="password" placeholder="Password" />
+                <br></br>
+                <br></br>
+                <label htmlFor="confirm-password"></label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password" />
+                <button type="submit">Register</button>
+                <div className="continue-with">or continue with</div>
             </div>
-            <div className="input-group">
-                <div className="input-wrapper">
-                    <input type="text" id="username" name="username" placeholder="Create Username" />
-                </div>
-            </div>
-            <div className="input-group">
-                <div className="input-wrapper">
-                    <input type="text" id="contact" name="contact" placeholder="Contact number" />
-                </div>
-            </div>
-            <div className="input-group">
-                <div className="input-wrapper">
-                    <input type="password" id="password" name="password" placeholder="Password" />
-                </div>
-            </div>
-            <div className="input-group">
-                <div className="input-wrapper">
-                    <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" />
-                    <div className="password-icon">
-                        <div className="bar1"></div>
-                        <div className="bar2"></div>
-                        <div className="bar3"></div>
-                    </div>
-                </div>
-            </div>
-
-            <button type="submit">Register</button>
-
-            <div className="continue-with">or continue with</div>
 
             <div className="social-icons">
                 <img src={facebookImage} alt="Facebook" />
