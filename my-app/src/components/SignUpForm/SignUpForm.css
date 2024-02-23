@@ -1,7 +1,7 @@
-/* SignUpForm.css */
-
+/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Poppins&display=swap');
 
+/* Styles for the signup form */
 .signup-form {
     width: 100vw;
     height: 100vh;
@@ -20,10 +20,12 @@
     overflow: hidden;
 }
 
+/* Reset default body margin */
 body {
     margin: 0;
 }
 
+/* Logo styling */
 .logo {
     width: 130px;
     height: 143px;
@@ -32,9 +34,9 @@ body {
     left: 20px;
 }
 
-
+/* Main title styling */
 .mainTitle {
-    width: auto;
+    width: 84px;
     height: 35px;
     font-size: 26px;
     font-family: Raleway;
@@ -43,7 +45,7 @@ body {
     right: 300px;
 }
 
-
+/* Title styling */
 .title {
     width: 222px;
     height: 59px;
@@ -55,6 +57,7 @@ body {
     left: 110px;
 }
 
+/* Subtitle styling */
 .subtitle {
     width: 396px;
     height: 53px;
@@ -65,15 +68,16 @@ body {
     left: 2px;
 }
 
+/* Paragraph styling */
 .pharagraph {
     width: 308px;
-    height: px;
     font-family: Raleway;
     position: absolute;
     top: 562px;
     left: 122px;
 }
 
+/* Input group styling */
 .input-group {
     margin-bottom: 20px;
     position: absolute;
@@ -81,11 +85,12 @@ body {
     right: 175px;
 }
 
+/* Input fields and buttons styling */
 .input-group input[type="text"],
 .input-group input[type="password"],
 .input-group button[type="submit"] {
-    width: 100%;
-    max-width: 300px;
+    width: 150%;
+    max-width: 250px;
 }
 
 .input-group button[type="submit"] {
@@ -96,6 +101,7 @@ body {
     cursor: pointer;
 }
 
+/* Social icons styling */
 .social-icons {
     display: flex;
     justify-content: flex-end;
@@ -110,6 +116,7 @@ body {
     margin: 0 10px;
 }
 
+/* General button styling */
 button {
     padding: 10px 20px;
     font-size: 18px;
@@ -119,6 +126,7 @@ button {
     cursor: pointer;
 }
 
+/* Button hover effect */
 button:hover {
     background-color: #0056b3;
 }
