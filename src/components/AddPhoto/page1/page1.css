@@ -1,0 +1,231 @@
+*body {
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.page1head {
+  position: relative;
+  background: none;
+  overflow: hidden;
+  width: auto;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: #5458587d;
+}
+
+.page1navi {
+  text-align: center;
+}
+
+.page1nav li a {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.page1nav li {
+  list-style: none;
+  display: inline;
+  position: relative;
+}
+
+.page1img {
+  margin-top: -70px;
+  width: 100%;
+  height: auto;
+}
+
+.page1button {
+  border-radius: 25px;
+  font-size: 20px;
+  background-color: rgb(0, 157, 255);
+  border: none;
+  font-size: 20px;
+  color: aliceblue;
+  width: 90px;
+  height: 35px;
+}
+
+.page1button1 {
+  text-align: right;
+  margin-right: 40px;
+  margin-top: -30px;
+}
+.page1img2 {
+  height: 120px;
+  margin-left: 60px;
+  margin-top: -25px;
+  position: absolute;
+}
+.afterhedding {
+  margin-top: 50px;
+}
+.orgname {
+  padding: 25px;
+  display: inline;
+  position: absolute;
+  margin-top: 10px;
+}
+.orgnameh3 {
+  padding: 25px;
+  display: inline;
+  position: absolute;
+  margin-top: 40px;
+}
+.orgpic {
+  padding: 15px;
+  margin-left: 200px;
+}
+.likebutton {
+  display: inline;
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 650px;
+  width: 120px;
+  height: 30px;
+  background: white;
+  border-color: blue;
+  border-radius: 5px;
+}
+.reviewbutton {
+  display: inline;
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 850px;
+  width: 120px;
+  height: 30px;
+  background: white;
+  border-color: blue;
+  color: aliceblue;
+  background-color: blue;
+  border-radius: 5px;
+}
+
+.padd {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 150px));
+  margin-left: 150px;
+  width: 1000px;
+}
+
+.pbox {
+  width: 250px;
+  height: 180px;
+  border-style: groove;
+  border-color: black;
+  border-radius: 5px;
+  display: inline-block;
+}
+.aboutbox {
+  display: grid;
+  width: 350px;
+  height: 250px;
+  border-style: groove;
+  border-color: blue;
+  position: absolute;
+  margin-left: 850px;
+  margin-top: -30px;
+}
+.socialbox {
+  display: grid;
+  width: 350px;
+  height: 150px;
+  border-style: groove;
+  border-color: blue;
+  position: absolute;
+  margin-left: 850px;
+  margin-top: 245px;
+}
+.Descriptionbox {
+  display: grid;
+  width: 350px;
+  height: 250px;
+  border-style: groove;
+  border-color: blue;
+  position: absolute;
+  margin-left: 850px;
+  margin-top: 420px;
+}
+.h1graph {
+  font-size: 25px;
+  margin-left: 15px;
+  color: blue;
+}
+.discription{
+  margin-left: 20px;
+  margin-top: -40px;
+}
+.fbimg{
+  height: 50px;
+  width: 50px;
+  padding: 25px;
+margin-top: -35px;
+margin-left: 20px;
+}
+.wappimg{
+  height: 60px;
+  width: 60px;
+  padding: 25px;
+margin-top: -110px;
+margin-left: 120px;
+}
+.insterimg{
+  height: 50px;
+  width: 50px;
+  padding: 25px;
+margin-top: -110px;
+margin-left: 220px;
+}
+.imgicon {
+  margin-top: 35px;
+  margin-left: 600px;
+}
+
+.img5 {
+  height: 40px;
+  width: 40px;
+  padding: 25px;
+}
+
+.hr2 {
+  margin-top: 30px;
+  width: 700px;
+  margin-left: 400px;
+  border-style: double;
+}
+
+.end {
+  display: flex;
+  margin-left: 50px;
+  padding: 15px;
+}
+.end1 {
+  margin-left: 300px;
+}
+.end,
+.end1 {
+  padding-left: -10px;
+}
+
+.dropdown {
+  position: absolute;
+  list-style-type: none;
+  margin-left: 270px;
+  margin-top: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.endcontactus {
+  position: absolute;
+
+  list-style-type: none;
+  margin-left: 350px;
+  margin-top: 230px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.copyright {
+  margin-top: 120px;
+  margin-left: 250px;
+}

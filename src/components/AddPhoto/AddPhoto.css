@@ -1,0 +1,153 @@
+/* Reset some default margin and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for the profile container */
+  .profile-container {
+    width: 1920px;
+    height: 1597px;
+    position: relative;
+    background: linear-gradient(0deg, 0%, 100%),
+                linear-gradient(0deg, rgba(24, 68, 188, 0.80) 0%, rgba(24, 68, 188, 0.80) 100%),
+                linear-gradient(0deg, rgba(54, 55, 64, 0.50) 0%, rgba(54, 55, 64, 0.50) 100%);
+  }
+  
+  /* Style for the profile content */
+  .profile-content {
+    width: 1709px;
+    height: 1597px;
+    position: absolute;
+    left: 255px;
+    top: 0;
+    background: #F7F8FC;
+  }
+  
+  /* Style for the profile picture */
+  .profile-picture {
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    left: 1679px;
+    top: 31px;
+    border-radius: 50%;
+    border: 1.5px solid #DFE0EB;
+  }
+  
+  /* Style for the profile name */
+  .profile-name {
+    width: 132px;
+    height: 18px;
+    position: absolute;
+    left: 1522px;
+    top: 44px;
+    text-align: right;
+    color: #252733;
+    font-size: 14px;
+    font-family: Nunito;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.20px;
+    word-wrap: break-word;
+  }
+  
+  /* Style for the online status indicator */
+  .online-status {
+    width: 47px;
+    height: 32px;
+    position: absolute;
+    left: 1468px;
+    top: 43px;
+  }
+  
+  /* Style for the online status dot */
+  .online-dot {
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    left: 9px;
+    top: 3px;
+    background: #3751FF;
+    border-radius: 50%;
+    border: 1.5px solid #F7F8FC;
+  }
+  
+  /* Style for the dashboard title */
+  .dashboard-title {
+    width: 132px;
+    height: 34px;
+    position: absolute;
+    left: 372px;
+    top: 35px;
+    color: #252733;
+    font-size: 24px;
+    font-family: Mulish;
+    font-weight: 700;
+    letter-spacing: 0.30px;
+    word-wrap: break-word;
+  }
+  
+  /* Style for the horizontal divider */
+  .horizontal-divider {
+    width: 100%;
+    height: 1px;
+    background: #DFE0EB;
+  }
+  
+  /* Style for the vertical divider */
+  .vertical-divider {
+    width: 1px;
+    height: 100%;
+    background: #DFE0EB;
+  }
+  
+  /* Style for the section background */
+  .section-background {
+    width: 100%;
+    height: 56px;
+    opacity: 0.08;
+    background: #9FA2B4;
+  }
+  
+  /* Style for the section titles */
+  .section-title {
+    width: 159px;
+    position: absolute;
+    color: #A4A6B3;
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0.36px;
+    word-wrap: break-word;
+  }
+  
+  /* Style for the section boxes */
+  .section-box {
+    width: 308px;
+    height: 45px;
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+    border: 1px #DFE0EB solid;
+  }
+  
+  /* Style for the labels */
+  .label {
+    position: absolute;
+    font-size: 14px;
+    font-family: Raleway;
+    font-weight: 700;
+    word-wrap: break-word;
+  }
+  
+  /* Style for the buttons */
+  .button {
+    position: absolute;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: 500;
+    word-wrap: break-word;
+  }
+  
