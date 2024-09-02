@@ -1,10 +1,17 @@
 import React from "react";
-import "./SignUpForm.css"; 
-import logoImage from "../../assets/logo.png"; 
-import facebookImage from "../../assets/facebook.png"; 
-import googleImage from "../../assets/google.png"; 
+import { useNavigate } from "react-router-dom"; // Import useNavigate hook
+import "./SignUpForm.css";
+import logoImage from "../../assets/logo.png";
+import facebookImage from "../../assets/facebook.png";
+import googleImage from "../../assets/google.png";
 
 function SignUpForm() {
+  const navigate = useNavigate(); // Initialize useNavigate hook
+
+  const handleLoginClick = () => {
+    navigate("/signin"); // Navigate to the SignInForm page
+  };
+
   return (
     <div className="signup-container">
       <div className="left-section">
@@ -16,10 +23,7 @@ function SignUpForm() {
             If you already have an account
             <br />
             You can{" "}
-            <button
-              className="login-button"
-              onClick={() => alert("Redirect to login page")}
-            >
+            <button className="login-button" onClick={handleLoginClick}>
               Login here!
             </button>
           </p>

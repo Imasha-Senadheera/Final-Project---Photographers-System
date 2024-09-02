@@ -1,10 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./SignInForm.css";
 import logoImage from "../../assets/logo.png";
 import facebookImage from "../../assets/facebook.png";
 import googleImage from "../../assets/google.png";
 
 function SignInForm() {
+  const navigate = useNavigate();
+
   return (
     <div className="signin-container">
       <div className="left-section">
@@ -18,7 +21,7 @@ function SignInForm() {
             You can{" "}
             <button
               className="signup-button"
-              onClick={() => alert("Redirect to signup page")}
+              onClick={() => navigate("/signup")}
             >
               Register here!
             </button>

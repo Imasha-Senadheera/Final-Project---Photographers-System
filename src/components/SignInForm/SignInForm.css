@@ -103,12 +103,12 @@ body {
   max-width: 400px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .signin-form input {
   width: 100%;
-  padding: 10px;
+  padding: 15px;
   font-size: 1rem;
   border-radius: 5px;
   border: none;
@@ -116,13 +116,16 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-/* Placeholder styling */
-.signin-form input::placeholder {
-  font-family: "Raleway", sans-serif;
+.forgot-password {
+  align-self: flex-end;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  color: #ffffff;
+  cursor: pointer;
 }
 
 .signin-form button {
-  width: 100%;
+  width: 425px;
   padding: 15px;
   font-size: 1rem;
   background-color: #1844bc;
@@ -130,7 +133,7 @@ body {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-bottom: 15px;
+  margin-top: 10px;
 }
 
 .signin-form button:hover {

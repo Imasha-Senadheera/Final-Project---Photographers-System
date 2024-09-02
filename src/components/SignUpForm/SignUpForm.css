@@ -108,7 +108,7 @@ body {
 
 .signup-form input {
   width: 100%;
-  padding: 10px;
+  padding: 15px;
   font-size: 1rem;
   border-radius: 5px;
   border: none;
@@ -128,7 +128,7 @@ body {
 
 /* Update register button to match input width */
 .signup-form button {
-  width: 100%; 
+  width: 425px; 
   padding: 15px;
   font-size: 1rem;
   background-color: #1844bc;
