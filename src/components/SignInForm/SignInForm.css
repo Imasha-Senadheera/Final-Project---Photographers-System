@@ -1,133 +1,201 @@
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Poppins&display=swap");
 
-/* Styles for the sign-in form */
-.signin-form {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    background-image: url('../../assets/background.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    overflow: hidden;
+/* General styles */
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
 }
 
-/* Resetting default body and html styles */
-body{
-    margin: 0;
+/* Styles for the signin container */
+.signin-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../assets/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Left section styling */
+.left-section {
+  width: 50%;
+  padding: 50px;
+  color: white;
+  position: relative;
 }
 
 /* Logo styles */
 .logo {
-    width: 130px;
-    height: 143px;
-    position: absolute;
-    top: 40px;
-    left: 25px;
+  width: 200px;
+  height: auto;
+  position: absolute;
+  top: 40px;
+  left: 60px;
 }
 
-/* Main title styles */
-.mainTitle {
-    width: 84px;
-    height: 35px;
-    font-size: 26px;
-    font-family: Raleway;
-    position: absolute;
-    top: 150px;
-    right: 300px;
+/* Text content styling */
+.text-content {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  text-align: left;
+  font-family: "Raleway", sans-serif;
 }
 
-/* Title styles */
-.title {
-    width: 222px;
-    height: 59px;
-    font-size: 36px;
-    font-weight: bold;
-    font-family: Raleway;
-    position: absolute;
-    top: 250px;
-    left: 110px;
+.text-content h1 {
+  font-size: 4rem;
+  margin: 20px 0;
+  font-family: "Raleway", sans-serif;
 }
 
-/* Subtitle styles */
-.subtitle {
-    width: 396px;
-    height: 53px;
-    font-size: 24px;
-    font-family: Poppins;
-    position: absolute;
-    top: 309px;
-    left: 2px;
+.text-content h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-family: "Raleway", sans-serif;
 }
 
-/* Paragraph styles */
-.pharagraph {
-    width: 308px;
-    height: auto;
-    font-family: Raleway;
-    position: absolute;
-    top: 562px;
-    left: 122px;
+.text-content p {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: "Raleway", sans-serif;
 }
 
-/* Input group styles */
-.input-group {
-    margin-bottom: 20px;
-    position: absolute;
-    top: 200px;
-    right: 175px;
+.text-content p a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
-.input-group input[type="text"],
-.input-group input[type="password"],
-.input-group button[type="submit"] {
-    width: 150%;
-    max-width: 250px;
+.signup-button {
+  background: none;
+  border: none;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 0;
+  font-size: inherit;
+  text-decoration: underline;
 }
 
-/* Submit button styles */
-.input-group button[type="submit"] {
-    background-color: #1844BC;
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
+.signup-button:hover {
+  text-decoration: none;
 }
 
-/* Social icons styles */
+/* Right section styling */
+.right-section {
+  width: 50%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.right-section h1 {
+  margin-bottom: 40px;
+}
+
+.signin-form {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signin-form input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  font-family: "Raleway", sans-serif;
+}
+
+/* Placeholder styling */
+.signin-form input::placeholder {
+  font-family: "Raleway", sans-serif;
+}
+
+.signin-form button {
+  width: 100%;
+  padding: 15px;
+  font-size: 1rem;
+  background-color: #1844bc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.signin-form button:hover {
+  background-color: #0a3d8e;
+}
+
+/* Social login styling */
+.social-login {
+  text-align: center;
+}
+
+.social-login p {
+  margin: 35px 0;
+}
+
 .social-icons {
-    display: flex;
-    justify-content: flex-end;
-    position: absolute;
-    top: 470px;
-    right: 210px;
+  display: flex;
+  justify-content: center;
 }
 
 .social-icons img {
-    width: 40px;
-    height: 40px;
-    margin: 0 10px;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
 }
 
-/* Generic button styles */
-button {
-    padding: 10px 20px;
-    font-size: 18px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
+/* Responsive styles */
+@media (max-width: 768px) {
+  .signin-container {
+    flex-direction: column;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%;
+    padding: 20px;
+  }
 }
 
-/* Button hover effect */
-button:hover {
-    background-color: #0056b3;
+@media (max-width: 480px) {
+  .text-content h1 {
+    font-size: 2rem;
+  }
+
+  .text-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .signin-form input {
+    font-size: 0.9rem;
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+
+  .signin-form button {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .social-login p {
+    margin: 20px 0;
+  }
+
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+  }
 }
